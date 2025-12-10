@@ -13,9 +13,30 @@ body {
     background-color: black;
 }
 .header {
+    width: 100%; 
+    position: fixed;
     background-color: rgb(0, 132, 255);
-    box-shadow: 0 0 15 10 rgb(0, 132, 255);
+    box-shadow: 0 5px 20px 10px rgb(0, 132, 255);
+    display: flex;
+    transform: translateY(-70px);
 }
 .header h1 {
-    margin: 25px;
+    margin-left: 20px;
+    margin-right: 50%;
+}
+.header h3 {
+  margin-top: 7px;
+  margin-left: 15px;
+}
+.main {
+  margin: 70px 20%;
+  border: 3px solid gray;
+  border-radius: 20px;
+  color: gray;
+}
+.main h3{
+  margin-left: 25px;
+}
+.main p {
+  margin-left: 15px;
 }
