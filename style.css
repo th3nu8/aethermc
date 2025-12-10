@@ -25,18 +25,19 @@ body {
     margin-right: 50%;
 }
 .header h3 {
-  margin-top: 7px;
-  margin-left: 15px;
+    margin-top: 7px;
+    margin-left: 15px;
 }
 .main {
-  margin: 70px 20%;
-  border: 3px solid gray;
-  border-radius: 20px;
-  color: gray;
+    margin: 70px 20%;
+    border: 3px solid gray;
+    border-radius: 20px;
+    color: gray;
 }
 .main h3{
-  margin-left: 25px;
+    margin-left: 25px;
 }
 .main p {
-  margin-left: 15px;
+    margin-left: 15px;
 }
+
