@@ -23,7 +23,7 @@ class Particle {
         this.y = y;
         this.radius = radius;
         this.velocityY = velocityY;
-        this.color = 'rgb(255, 255, 102)'; 
+        this.color = 'rgb(0, 132, 255)'; 
     }
 
     draw() {
