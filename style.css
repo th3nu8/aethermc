@@ -4,6 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
+a {
+    text-decoration: none;
+}
 * {
     font-family: "Monocraft";
     margin: 0;
@@ -14,30 +17,37 @@ body {
 }
 .header {
     width: 100%; 
-    position: fixed;
     background-color: rgb(0, 132, 255);
     box-shadow: 0 5px 20px 10px rgb(0, 132, 255);
     display: flex;
-    transform: translateY(-70px);
 }
 .header h1 {
-    margin-left: 20px;
-    margin-right: 50%;
+    margin: 5px 50% 5px 20px;
 }
 .header h3 {
-    margin-top: 7px;
+    margin-top: 10px;
     margin-left: 15px;
+    margin-right: 15px;
 }
 .main {
-    margin: 70px 20%;
+    margin: 5% 20%;
     border: 3px solid gray;
     border-radius: 20px;
     color: gray;
 }
 .main h3{
     margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .main p {
     margin-left: 15px;
+    margin-bottom: 15px;
 }
-
+a:link {
+  color: black;
+}
+a:visited, a:hover, a:active {
+    color: #4a4a4a;
+    font-size: 110%;
+}
