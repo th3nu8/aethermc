@@ -1,9 +1,18 @@
 <head>
     <title>Aether MC</title>
     <link rel="stylesheet" href="style.css">
+  <style>
+    #particeCanvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -10000;
+      }
+  </style>
 </head>
 <body>
-  <script src='background'></script>
+  <canvas id="particleCanvas"></canvas>
+  <script src='background.js'></script>
   <div class="header">
     <h1><a href="index.html">Aether MC</a></h1>
     <h3>Shop</h3>
