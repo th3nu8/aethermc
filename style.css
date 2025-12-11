@@ -48,10 +48,10 @@ body {
     margin-left: 15px;
     margin-bottom: 15px;
 }
-a:link {
+a:link, a:active{
   color: black;
 }
-a:visited, a:hover, a:active {
+a:visited, a:hover {
     color: #4a4a4a;
     font-size: 110%;
 }
