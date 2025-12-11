@@ -109,7 +109,7 @@ a:visited, a:hover, a:active {
     background-color: rgb(0, 132, 255);
     box-shadow: 0 0 20px 15px rgb(0, 132, 255);
     display: flex;
-    transform: translateY(65px);
+    margin-top: 250px;
 }
 .footer p {
     margin-left: 15px;
