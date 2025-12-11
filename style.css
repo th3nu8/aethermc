@@ -24,14 +24,18 @@ body {
     position: fixed;
     margin-top: auto;
     top: 0;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
 }
-.header h1 {
-    margin: 5px 80% 5px 20px;
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
 }
-.header h3 {
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
+.nav h3 {
+    margin: 0 15px;
 }
 .main {
     margin: 5% 20%;
