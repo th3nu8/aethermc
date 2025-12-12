@@ -27,7 +27,7 @@ class Particle {
     }
 
     draw() {
-        ctx.shadowColor = 'rgba(255, 255, 0, 1)'; 
+        ctx.shadowColor = 'rgba(0, 132, 255, 1)'; 
         ctx.shadowBlur = this.radius * 200; 
         ctx.shadowOffsetX = 0;
         ctx.shadowOffsetY = 0;
