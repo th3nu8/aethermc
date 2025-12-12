@@ -56,7 +56,9 @@ body {
     margin-top: 15px;
 }
 .main h2 {
-    margin: 15px auto 15px 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
 }
 .main p {
     margin-left: 15px;
@@ -135,3 +137,4 @@ a:hover, a:active {
     width: 99.5%;
     overflow-y: auto;
 }
+
